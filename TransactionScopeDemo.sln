@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmailSender.Tests", "test\EmailSender.Tests\EmailSender.Tests.csproj", "{C592E30D-7347-4CA5-A49A-13ED4BBE0FAA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmailSender", "src\EmailSender\EmailSender.csproj", "{68751FA2-1795-40B6-AF65-B50C7E552F43}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4CCEFC25-22C0-492D-ABEA-BE43272D0A34}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{40593B98-BEF0-4C3B-9531-ED43660850D0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{646BA682-F763-426B-B80C-5B925885185F}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrderSvc", "src\OrderSvc\OrderSvc.csproj", "{01CA9F08-13BC-450D-A1CC-D46D86E66A78}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrderSvc.IntegrationTests", "test\OrderSvc.IntegrationTests\OrderSvc.IntegrationTests.csproj", "{638D4A45-31CE-4EA2-A7FB-825DF0B06C3B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C592E30D-7347-4CA5-A49A-13ED4BBE0FAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C592E30D-7347-4CA5-A49A-13ED4BBE0FAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C592E30D-7347-4CA5-A49A-13ED4BBE0FAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C592E30D-7347-4CA5-A49A-13ED4BBE0FAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68751FA2-1795-40B6-AF65-B50C7E552F43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68751FA2-1795-40B6-AF65-B50C7E552F43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68751FA2-1795-40B6-AF65-B50C7E552F43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68751FA2-1795-40B6-AF65-B50C7E552F43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01CA9F08-13BC-450D-A1CC-D46D86E66A78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01CA9F08-13BC-450D-A1CC-D46D86E66A78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01CA9F08-13BC-450D-A1CC-D46D86E66A78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01CA9F08-13BC-450D-A1CC-D46D86E66A78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{638D4A45-31CE-4EA2-A7FB-825DF0B06C3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{638D4A45-31CE-4EA2-A7FB-825DF0B06C3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{638D4A45-31CE-4EA2-A7FB-825DF0B06C3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{638D4A45-31CE-4EA2-A7FB-825DF0B06C3B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C592E30D-7347-4CA5-A49A-13ED4BBE0FAA} = {40593B98-BEF0-4C3B-9531-ED43660850D0}
+		{68751FA2-1795-40B6-AF65-B50C7E552F43} = {4CCEFC25-22C0-492D-ABEA-BE43272D0A34}
+		{01CA9F08-13BC-450D-A1CC-D46D86E66A78} = {4CCEFC25-22C0-492D-ABEA-BE43272D0A34}
+		{638D4A45-31CE-4EA2-A7FB-825DF0B06C3B} = {40593B98-BEF0-4C3B-9531-ED43660850D0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A0BC0901-39EF-445F-97AF-548F94DC9C9A}
+	EndGlobalSection
+EndGlobal
